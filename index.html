@@ -1,10 +1,34 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Students Recommendation Letter Request</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Mr. Sell Recommendation Letter Request</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
   </head>
-  
-  <body>
-    <h1> Need a Recommendation Letter? </h1>
+  <body onload="init()">
+    
+
+    <form>
+        <h2>Mr. Sell I need a recommendation letter!!!!</h2>
+        <p>In order for me to write the best recommendation letter for you that I can. I will need time and some information from you.</p>
+		<p>Make sure you are logged into your MCPS Google account. The form will not load if you are not logged in.</p>
+        <br />
+        <label id='chooseDate'>Select the date that you need the letter:</label>
+        <br />
+        <input type="date" id="dateNeeded" name="whenNeeded" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <button type="button" onclick="getDate()">Click to continue</button>
+    </form>
+    <br/>
+    <br/>
+    <div id='messageArea'></div>
+
     <p><a href="https://sellstep.github.io/APCSA-Review/"> APCSA Review </a></p>
+    
   </body>
 </html>
