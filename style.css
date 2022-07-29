@@ -1,0 +1,28 @@
+body{
+  background-color:rgb(221, 200, 165);
+}
+
+h2{ 
+  color:rgb(31, 61, 61);
+  text-align: center;
+}
+
+p, label{
+  color:rgb(31, 61, 61);
+  font-size:110%;
+}
+
+button{
+  color:rgb(31, 61, 61);
+  font-size:120%;
+}
+
+input{
+  background-color:rgb(164, 221, 221);
+}
+
+#messageArea{
+  color:#ff0000;
+  font-size:150%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
