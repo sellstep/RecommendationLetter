@@ -40,14 +40,16 @@ function getDate(){
   //document.write("milliseconds is: " + myInt);
   //console.log(myInt);
 
-  if ( futureDate - myInt < 1900800)
+  if ( futureDate - myInt < 1900800){
       //Current setting is 22 days or 3 weeks if ( futureDate - myInt < 1900800){ - for 22 days -
     // This is 2 weeks or 15 days
     // if ( futureDate - myInt < 1296000){
      
     //console.log("Difference is: " + (futureDate - myInt) );
     //console.log("Cannot write effective recommendation letter in less than 3 weeks");
-    message.innerHTML = "Cannot write effective recommentation letter in less than 2 weeks.";
+    message.innerHTML = "Cannot write effective recommentation letter in less than 3 weeks.";
+    // Changed message so that it reads 3 weeks instead of 2
+    
     //alert("Cannot write effective recommendtation letter in less than 3 weeks.");
   }
   else{
